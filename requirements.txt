@@ -1,7 +1,9 @@
 langchain
+langchain-community
 langchain-openai
 langchain-deepseek
 openai
 streamlit
 jupyter
 pandas
+dotenv
