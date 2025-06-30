@@ -7,9 +7,9 @@ st.set_page_config(layout="wide")
 container1, container2 = st.columns([0.3, 0.7])
 
 with container1:
-    st.markdown("<h1 style='text-align: center;'>Search</h1>", unsafe_allow_html=True)
-    request = st.text_input("Search for a news (This search will return headlines only)")
-    button = st.button("Search")
+    st.markdown("<h1 style='text-align: center;'>Pesquisa</h1>", unsafe_allow_html=True)
+    request = st.text_input("Pesquise por um assunto")
+    button = st.button("Pesquisar")
     
 with container2:
     st.markdown("<h1 style='text-align: center;'>Modelos</h1>", unsafe_allow_html=True)
